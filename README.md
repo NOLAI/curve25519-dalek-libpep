@@ -1,3 +1,8 @@
+> This is a fork from `signalapp/curve25519-dalek`s fork from the original `dalek-cryptography/curve25519-dalek` repository.
+> The original repository is a pure-Rust implementation of group operations on Ristretto and Curve25519.
+> The `signalapp/curve25519-dalek` adds lizard encoding and decoding, but is not merged in the original repository or published on crates.io.
+> Since `libpep` uses the lizard encoding, we forked the `signalapp/curve25519-dalek` repository and published it on crates.io, so that we can use it as a dependency in `libpep`.
+
 <p align="center">
 <img
  alt="dalek-cryptography logo: a dalek with edwards curves as sparkles coming out of its radar-schnozzley blaster thingies"
